@@ -1,0 +1,32 @@
+{
+      "name": "grey-theme",
+      "displayName": "Grey Theme",
+      "description": "Simple Grey Theme",
+      "version": "0.0.1",
+      "publisher": "MarcelKuczynski",
+      "repository": {
+            "type": "git",
+            "url": "https://github.com/mkuczynski98/simple_grey_theme"
+      },
+      "engines": {
+            "vscode": "^1.63.0"
+      },
+      "categories": [
+            "Themes"
+      ],
+      "keywords": [
+            "theme",
+            "grey theme",
+            "simple grey theme",
+            "simple theme"
+      ],
+      "contributes": {
+            "themes": [
+                  {
+                        "label": "Simple Grey Theme",
+                        "uiTheme": "vs-dark",
+                        "path": "./themes/Simple Grey Theme-color-theme.json"
+                  }
+            ]
+      }
+}
